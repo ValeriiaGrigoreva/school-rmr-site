@@ -1,0 +1,37 @@
+
+/*блок с контактами*/
+
+.contacts{
+    border: 1px solid #02458B;
+    margin: 0 auto;
+    width: 770px;
+}
+
+.contacts_text{
+    margin: 30px;
+}
+
+.contacts_head{
+    text-align: center;
+    font-size: 23px;
+}
+
+.contacts_item{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+
+/*карта*/
+.map{
+    width: 770px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}

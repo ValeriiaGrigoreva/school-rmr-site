@@ -1,0 +1,167 @@
+/* общее*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #02458B;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+label,input{
+    display: none;
+}
+
+img{
+    max-width: 100%;
+}
+/*шапка*/
+
+.logo_header{
+    font-size: 36px;
+    width: 100%;
+    height: 189px;
+    border-bottom: 1pt solid #02458B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;   
+}
+
+/*навигация*/
+nav{
+    height: 60px;
+}
+
+nav li{
+    position: relative;
+}
+
+.topnav{
+    font-size: 19px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a{
+    color: #02458B;
+    padding: 15px 17px;
+}
+
+.topnav >li > a:hover{
+    border-bottom: 2pt solid #02458B;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.sub_menu{
+    display: none;
+    position: absolute;
+    left: -30px;
+    top: 20px;
+    z-index: 500;
+    padding: 15px 0px 0px 0px;
+    width: 130%;
+}
+
+.sub_menu li{
+    background-color: white;
+    padding-top: 10px;
+}
+
+.sub_menu_last{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.topnav > li:hover .sub_menu{
+    display: block;
+}
+
+.topnav .sub_menu_link{
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.topnav.responsive .sub_menu_link{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.topnav.responsive .sub_menu{
+    left: 0px;
+    
+}
+
+/*слайдер*/
+.slider{
+    margin: 0 auto;
+    width: 770px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;  
+}
+
+.slide_single{
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all ease 1s;  
+}
+
+/*текст*/
+.text{
+    border: 1px solid #02458B;
+    width: 770px;
+    height: 770px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.text_inside{
+    margin: 50px;
+}
+
+.text_header{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.text_paragraph{
+    padding-top: 30px;
+    font-size: 21px;
+}
+
+/*footer*/
+footer{
+    border-top: 1px solid #02458B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 21px;
+}
+
+.fa-vk{
+    color: #02458B;
+    font-size: 35px; 
+}
+

@@ -1,0 +1,221 @@
+@media screen and (max-width: 320px){
+    .slider{
+        width: 250px;
+        height: 200px;
+    }
+
+    .text{
+        width: 250px;
+        height: 910px;
+    }
+
+    .text_inside{
+        margin: 25px;
+    }
+
+    .text_header{
+        font-size: 12px;
+    }
+
+    .text_paragraph{
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .logo_header{
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .school_name{
+        width: 181px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+
+    .copyright{
+        width: 225px;
+    }
+
+    .fa-vk{
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 414px){
+    .slider{
+        width: 300px;
+        height: 250px;
+    }
+
+    .text{
+        width: 300px;
+        height: 930px;
+    }
+
+    .text_inside{
+        margin: 25px;
+    }
+
+    .text_header{
+        font-size: 14px;
+    }
+
+    .text_paragraph{
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .logo_header{
+        height: 100px;
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .school_name{
+        width: 215px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+    .copyright{
+        width: 202px;
+    }
+
+    .fa-vk{
+        font-size: 29px;
+    }
+
+}
+
+@media (min-width: 415px) and (max-width: 769px){
+    .slider{
+        width: 700px;
+    }
+
+    .text{
+        width: 700px;
+        height: 850px;
+    }
+
+    .school_name{
+        width: 488px;
+    }
+
+    .logo_header{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1024px){
+    .logo_header{
+        font-size: 32px;
+    }
+
+    .school_name{
+        width: 774px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .topnav li:not(:first-child){
+        display: none;
+    }
+
+    .topnav li.li_menu{
+        display: block;
+    }
+
+    .topnav .icon{
+        display: block;
+        margin-top: -17px;
+    }
+    
+    .topnav.responsive{
+        position: relative;
+        z-index: 500;
+        background-color: white;
+        display: block;
+    }
+
+    .topnav.responsive li.li_menu{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .topnav.responsive li {
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive li a {
+        display: block;
+    }
+
+    .topnav.responsive a:first-child{
+        padding-top: 0;   
+    }
+
+    .topnav.responsive a:hover, .topnav li a:first-child{
+        border-bottom: none;
+    }
+
+    .topnav > li:hover .sub_menu{
+        display: none;
+    }
+
+    .toggleSubmenu{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 15px;
+    }
+
+    #sub_m2:checked ~ #sub2, #sub_m1:checked ~ #sub1, #sub_m0:checked ~ #sub0{
+        display: block;
+        position: relative;
+        padding-top: 0;
+    }
+
+    .toggleSubmenu:before{
+        content: "▼";
+    }
+
+    input:checked ~ .toggleSubmenu::before{
+        content: "▲";
+    }
+
+    #list0, #list1, #list2{
+        padding-top: 0;
+    }
+
+    .sub_menu li{
+        padding-top: 0px;
+    }
+
+    .sub_menu{
+        top: 5px;
+    }
+
+    .sub_menu_last{
+        padding-bottom: 0px;
+    }
+
+    #contacts,#list2{
+        margin-top: 2px;
+    }
+}
+

@@ -1,0 +1,37 @@
+
+/*ГТО*/
+.gto_info{
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gto_block{
+    border: 1px solid #02458B;
+    margin-bottom: 20px;
+}
+
+.gto_text{
+    margin: 30px;
+}
+
+.gto_text_head{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.gto_paragraph{
+    padding: 5px 0px;
+}
+
+.gto_paragraph_first{
+    margin-top: 10px;
+}
+
+.gto_paragraph_head{
+    font-weight: bold;
+}
+
+.gto_link:visited, .gto_link{
+    color: #02458B;
+}
+

@@ -1,0 +1,32 @@
+@media screen and (max-width: 320px){
+
+    .gto_info{
+        width: 250px;
+    }
+
+    .gto_text{
+        margin: 20px;
+    }
+
+    .gto_text_head{
+        font-size: 17px;
+    }
+
+    .gto_paragraph{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 414px){
+.gto_info{
+    width: 300px;
+}
+
+}
+
+@media (min-width: 415px) and (max-width: 769px){
+    .gto_info{
+        width: 700px;
+    }
+}
+

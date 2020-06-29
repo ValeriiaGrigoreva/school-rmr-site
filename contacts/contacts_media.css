@@ -1,0 +1,37 @@
+@media screen and (max-width: 320px){
+    .contacts,.map{
+        width: 250px;
+    }
+
+    .map{
+        height: 150px;
+    }
+
+    .contacts_text{
+        margin: 20px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 414px){
+    .contacts, .map{
+        width: 300px;
+    }
+
+    .map{
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 415px) and (max-width: 769px){
+    .contacts, .map{
+        width: 700px;
+}
+}
+
+@media screen and (max-width: 1024px){
+    .map{
+        margin-bottom: 400px;
+    }
+}
