@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты</title>
-    <link rel="stylesheet" href="contacts_style.css">
-    <link rel="stylesheet" href="contacts_media.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../media.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
-    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
-    crossorigin="anonymous">
-</head>
-<body>
-    <header>
+<header>
         <section class="logo_header">
             <div class="logo"> 
-                <a href="../index.html"><img src="../img/logo.png"></a>
+                <a href="/index.php"><img src="/img/logo.png"></a>
             </div>
             <div class="school_name">
                 <span>МУ Спортивная школа Рыбинского муниципального района</span>
@@ -25,20 +10,19 @@
 
         <nav>
             <ul class="topnav" id="myTopnav">
-                <li><a href="../index.html">ГЛАВНАЯ</a></li>
+                <li><a href="/index.php">ГЛАВНАЯ</a></li>
                 <li><a href="">НОВОСТИ</a></li>
                 <li>
                     <input type="checkbox" name="toggle" id="sub_m0">
                     <a href="" id="list0">ГТО</a>
                     <label for="sub_m0" class="toggleSubmenu"></label>
                     <ul id="sub0" class="sub_menu" style="width: 220%;">
-                        <li><a href="../gto/main_inf/main_inf.html" class="sub_menu_link">Основная информация</a></li>
-                        <li><a href="../gto/answers/answers.html" class="sub_menu_link">Вопрос-ответ</a></li>
-                        <li><a href="" class="sub_menu_link">Нормативы</a></li>
+                        <li><a href="/gto/main_inf/main_inf.php" class="sub_menu_link">Основная информация</a></li>
+                        <li><a href="/gto/answers/answers.php" class="sub_menu_link">Вопрос-ответ</a></li>
                         <li class="sub_menu_last"><a href="" class="sub_menu_link">Мероприятия</a></li>
                     </ul>
                 </li>
-                <li><a href="contacts.html" id="contacts">КОНТАКТЫ</a></li>
+                <li><a href="/contacts/contacts.php" id="contacts">КОНТАКТЫ</a></li>
                 <li>
                     <input type="checkbox" name="toggle" id="sub_m1">
                     <a href="" id="list1">ВИДЫ СПОРТА</a>
@@ -61,7 +45,7 @@
                     <ul id="sub2" class="sub_menu" style="width: 170%;">
                         <li><a href=""  class="sub_menu_link">Руководство</a></li>
                         <li><a href=""  class="sub_menu_link">Техническая база</a></li>
-                        <li><a href="../about_school/normativnye/normativnye.html"  class="sub_menu_link">Нормативные документы</a></li>
+                        <li><a href="/about_school/normativnye/normativnye.php"  class="sub_menu_link">Нормативные документы</a></li>
                         <li><a href=""  class="sub_menu_link">Достижения</a></li>
                         <li><a href=""  class="sub_menu_link">Наши тренеры</a></li>
                         <li class="sub_menu_last"><a href=""  class="sub_menu_link">Наши инструкторы</a></li>
@@ -71,29 +55,3 @@
             </ul>
         </nav>
     </header>
-
-    <section class="contacts">
-        <div class="contacts_text">
-            <p class="contacts_head">Контакты</p>
-            <p class="contacts_item">Телефон: +7 4855 28 07 09</p>
-            <p class="contacts_item">Email: info@shkola-rmr.ru</p>
-            <p class="contacts_item">Адрес: ул. Свободы, 17</p>
-        </div>
-    </section>
-
-    <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2111.2552199112292!2d38.82348141592943!3d58.051232981230015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
-        1s0x46b21112bdcd11f1%3A0x2f2b2c5f7444694!2z0YPQuy4g0KHQstC-0LHQvtC00YssIDE3LCDQoNGL0LHQuNC90YHQuiwg0K_RgNC-0YHQu9Cw0LLRgdC60LDRjyDQvtCx0LsuLCAxNTI5MDM!5e0!3m2!1sru!2sru!4v1592
-        334458760!5m2!1sru!2sru"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </section>
-
-    <footer>
-        <div class="copyright">
-            <span>&#169; МУ Спортивная школа Рыбинского муниципального района</span>
-        </div>
-        <a href="https://vk.com/club149452102"><i class="fab fa-vk"></i></a>
-    </footer>
-
-    <script src="../main.js"></script>
-</body>
-</html>
