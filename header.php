@@ -23,7 +23,7 @@
                     </ul>
                 </li>
                 <li><a href="/contacts/contacts.php" id="contacts">КОНТАКТЫ</a></li>
-                <li><a href="#">ВИДЫ СПОРТА</a></li>
+                <li><a href="/sport_types/sport_types.php">ВИДЫ СПОРТА</a></li>
                 <li>
                     <input type="checkbox" name="toggle" id="sub_m2">
                     <a href="#" id="list2">О ШКОЛЕ</a>
