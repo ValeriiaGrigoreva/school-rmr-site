@@ -1,4 +1,13 @@
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
 /*блок с контактами*/
 
 .contacts{
@@ -35,3 +44,4 @@ iframe{
     width: 100%;
     height: 100%;
 }
+

@@ -57,3 +57,26 @@ function left(){
 draw();
 draw();
 document.querySelector(".slider").onclick = left;
+
+//пддменю на клик
+/*document.addEventListener("click", function(e) {
+    let submenu = document.getElementById("sub2");
+
+    if (e.target.id != "sub2" && e.target.id != "menu_click") {
+        submenu.style.display = "none";
+    } else if (e.target.id === "menu_click") {
+        submenu.style.display = (submenu.style.display != "block") ? "block" : "none";
+    }
+
+});*/
+
+/*document.addEventListener("click", function(e) {
+    let submenu = document.querySelector(".sub_menu");
+
+    if (!e.target.classList.contains("sub_menu") && !e.target.classList.contains("menu_click")) {
+        submenu.style.display = "none";
+    } else if (e.target.classList.contains("menu_click")) {
+        submenu.style.display = (submenu.style.display != "block") ? "block" : "none";
+    }
+
+});*/

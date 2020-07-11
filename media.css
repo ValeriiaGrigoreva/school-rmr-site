@@ -184,7 +184,7 @@
         right: 15px;
     }
 
-    #sub_m2:checked ~ #sub2, #sub_m1:checked ~ #sub1, #sub_m0:checked ~ #sub0{
+    #sub_m2:checked ~ #sub2, #sub_m0:checked ~ #sub0{
         display: block;
         position: relative;
         padding-top: 0;
@@ -198,7 +198,7 @@
         content: "▲";
     }
 
-    #list0, #list1, #list2{
+    #list0, #list2{
         padding-top: 0;
     }
 

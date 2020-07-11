@@ -20,6 +20,7 @@
 
     .map{
         height: 200px;
+        margin-bottom: 90px;
     }
 
 }
@@ -30,8 +31,15 @@
 }
 }
 
-@media screen and (max-width: 1024px){
+@media (min-width: 770px) and (max-width: 1024px){
     .map{
         margin-bottom: 400px;
     }
 }
+
+/*@media screen and (max-width: 768px){
+
+    .topnav:not(:nth-child(4)){
+        display: none;
+    }
+}*/

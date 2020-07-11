@@ -16,7 +16,6 @@
     <?php 
         include ("../header.php");
     ?>
-
     <section class="contacts">
         <div class="contacts_text">
             <p class="contacts_head">Контакты</p>
@@ -31,7 +30,7 @@
         1s0x46b21112bdcd11f1%3A0x2f2b2c5f7444694!2z0YPQuy4g0KHQstC-0LHQvtC00YssIDE3LCDQoNGL0LHQuNC90YHQuiwg0K_RgNC-0YHQu9Cw0LLRgdC60LDRjyDQvtCx0LsuLCAxNTI5MDM!5e0!3m2!1sru!2sru!4v1592
         334458760!5m2!1sru!2sru"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
-
+    
     <?php
         include("../footer.php");
     ?>
