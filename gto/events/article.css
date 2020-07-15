@@ -1,0 +1,28 @@
+.article{
+    width: 770px;
+    margin: 0 auto;
+    border: 1px solid #02458B;
+    margin-bottom: 50px;
+}
+
+.article_inside{
+    margin: 20px;
+}
+
+.article_head{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.article_text{
+    margin-bottom: 10px;
+    text-indent: 25px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 10px;
+}

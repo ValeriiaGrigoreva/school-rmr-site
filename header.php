@@ -19,7 +19,7 @@
                     <ul id="sub0" class="sub_menu" style="width: 220%;">
                         <li><a href="/gto/main_inf/main_inf.php" class="sub_menu_link">Основная информация</a></li>
                         <li><a href="/gto/answers/answers.php" class="sub_menu_link">Вопрос-ответ</a></li>
-                        <li class="sub_menu_last"><a href="#" class="sub_menu_link">Мероприятия</a></li>
+                        <li class="sub_menu_last"><a href="/gto/events/events.php" class="sub_menu_link">Мероприятия</a></li>
                     </ul>
                 </li>
                 <li><a href="/contacts/contacts.php" id="contacts">КОНТАКТЫ</a></li>
