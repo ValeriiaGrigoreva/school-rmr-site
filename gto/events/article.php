@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../../media.css">
     <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="article_media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
     integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
     crossorigin="anonymous">
@@ -20,7 +21,7 @@
         include ("../../db.php");
         $articles = getArticle($_GET["id"]);
     ?>
-
+    <div class="wrapper">
     <section class="article">
         <div class="article_inside">
             <p class="article_head"><?php echo $articles["title"] ?></p>
@@ -31,6 +32,7 @@
             </div>
         </div>
     </section>
+    </div>
 
     <?php
         include("../../footer.php");
