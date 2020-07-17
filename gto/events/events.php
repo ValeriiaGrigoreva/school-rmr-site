@@ -18,8 +18,9 @@
     ?>
 
     <main class="news">
+        <p class="section_header">Мероприятия</p>
     <?php
-        include ("../../db.php");
+        include ("db.php");
     
 
         if (isset($_GET['page'])){
@@ -29,7 +30,7 @@
         $limit = 5; 
         $offset = $limit * ($page - 1);
         $events = getAllEvents($limit, $offset);
-        $num_rows = $db->query('select count(*) from events')->fetchColumn(); 
+        $num_rows = $db->query('select count(*) from previews')->fetchColumn(); 
         $str_page = ceil($num_rows/$limit);
         
 

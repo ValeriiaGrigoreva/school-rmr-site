@@ -6,6 +6,7 @@
     <title>Спортивная школа Рыбинского муниципального района</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
     integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
     crossorigin="anonymous">

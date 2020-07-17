@@ -18,6 +18,7 @@
     ?>
 
     <section class="gto_info">
+    <p class="section_header">Вопрос-ответ</p>
         <div class="gto_block">
             <div class="gto_text">
                 <p class="gto_text_head">Сколько раз я могу получить знак отличия ГТО?</p>

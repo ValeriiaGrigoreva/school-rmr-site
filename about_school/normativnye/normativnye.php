@@ -20,7 +20,7 @@
 
         <section class="documents">
             <ul class="documents_names">
-                <li class="documents_head">Нормативные документы</li>
+                <li class="section_header">Нормативные документы</li>
                 <li class="documents_name"><a href="docs/ustav.docx">Устав МУ СШ Рыбинского муниципального района</a></li>
                 <li class="documents_name"><a href="docs/antikorrupciya.doc">Антикоррупционная политика МУ СШ Рыбинского муниципального района</a></li>
                 <li class="documents_name"><a href="docs/VCP.pdf">Ведомственно целевая программа «Физическая культура и спорт в Рыбинском муниципальном районе»</a></li>

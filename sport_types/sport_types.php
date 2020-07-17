@@ -19,7 +19,7 @@
 
     <section class="information">
         <div class="inner_information">
-            <p class="information_head">Виды спорта</p>
+            <p class="section_header">Виды спорта</p>
             <p class="information_text">В МУ Спортивная школа рыбинского муниципального района осуществляется подготовка по следующим видам спорта:</p>
             <ul class="sport_list">
                 <li class="sport_title">Футбол</li>

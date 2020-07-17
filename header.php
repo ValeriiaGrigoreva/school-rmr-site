@@ -11,7 +11,7 @@
         <nav>
             <ul class="topnav" id="myTopnav">
                 <li><a href="/index.php">ГЛАВНАЯ</a></li>
-                <li><a href="#">НОВОСТИ</a></li>
+                <li><a href="/news/news.php">НОВОСТИ</a></li>
                 <li>
                     <input type="checkbox" name="toggle" id="sub_m0">
                     <a href="#" id="list0" class="menu_click">ГТО</a>

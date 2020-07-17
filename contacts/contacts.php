@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
-    <link rel="stylesheet" href="contacts_style.css">
-    <link rel="stylesheet" href="contacts_media.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../media.css">
+    <link rel="stylesheet" href="contacts_style.css">
+    <link rel="stylesheet" href="contacts_media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
     integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
     crossorigin="anonymous">
@@ -18,7 +18,7 @@
     ?>
     <section class="contacts">
         <div class="contacts_text">
-            <p class="contacts_head">Контакты</p>
+            <p class="section_header">Контакты</p>
             <p class="contacts_item">Телефон: +7 4855 28 07 09</p>
             <p class="contacts_item">Email: info@shkola-rmr.ru</p>
             <p class="contacts_item">Адрес: ул. Свободы, 17</p>

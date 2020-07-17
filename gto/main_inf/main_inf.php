@@ -17,6 +17,7 @@
         include ("../../header.php");
     ?>
     <section class="gto_info">
+    <p class="section_header">Основная информация</p>
     <div class="gto_block">
         <div class="gto_text">
             <p class="gto_text_head">Как зарегистрироваться для сдачи ГТО</p>

@@ -7,7 +7,7 @@
 
     function getAllEvents($limit, $offset){
         global $db;
-        $events = $db->query("SELECT * FROM events ORDER BY id DESC LIMIT $limit OFFSET $offset");
+        $events = $db->query("SELECT * FROM previews ORDER BY id DESC LIMIT $limit OFFSET $offset");
         return $events;
     }
 
